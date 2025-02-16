@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 34px;
+    height: 34px;
+    margin-right: 5px;
+}
+
+.logo h1 {
+    font-size: 40px;
+
+}
+
+.menu {
+    font-size: 20px;
+    display: inline-block;
+    word-spacing: 50px;
+    text-align: end;
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+
+}
+
+.banner img {
+    width: 1200px;
+    height: 758px;
+    margin-bottom: 60px;
+}
+
+.banner h1 {
+    font-size: 65px;
+}
+
+.banner p {
+    font-size: 22px;
+}
+
+.banner button {
+    width: 182px;
+    height: 75px;
+    border-radius: 18px;
+    cursor: pointer;
+    border-color: transparent;
+    font-size: 18px;
+    background-color: #292F36;
+    color: #fff;
+}
+
+.button span {
+    color: #cda274;
+    font-display: bold;
+    font-size: 22px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.text-overlay h1 {
+    font-size: 65px;
+    width: 595px;
+    height: 162px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.text-overlay p {
+    width: 433px;
+    height: 66px;
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.text-overlay button {
+    margin-right: 420px
+}
+
+.project {
+    width: 1200px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.project-text h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.project-text p {
+    font-size: 22px;
+    margin-bottom: 60px;
+    color: #4D5053;
+    line-height: 200%;
+}
+
+.project-img {
+    display: flex;
+    text-align: start;
+    margin-left: 220px;
+}
+.project-img2 {
+    display: flex;
+    text-align: start;
+    margin-left: 220px;
+}
+
+.project-img h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #292F36;
+}
+
+.project-img2 h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #292F36;
+}
+
+.project-img p {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #4D5053;
+}
+
+.project-img2 p {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #4D5053;
+}
+
+.project-img button {
+
+    border-radius: 18px;
+    width: 70px;
+    height: 70px;
+    border-color: transparent;
+    font-size: 18px;
+    background-color: #F4F0EC;
+    color: #292F36;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    margin-left: 450px;
+}
+
+.project-img img {
+    width: 525px;
+    height: 548px;
+    margin-bottom: 20px;
+
+}
+
+.project-img2 button {
+
+    border-radius: 18px;
+    width: 70px;
+    height: 70px;
+    border-color: transparent;
+    font-size: 18px;
+    background-color: #F4F0EC;
+    color: #292F36;
+    margin-bottom: 60px;
+    border-radius: 50px;
+    margin-left: 450px;
+}
+
+.project-img2 img {
+    width: 525px;
+    height: 548px;
+    margin-bottom: 20px;
+
+}
+
+.img1 {
+    margin-right: 150px;
+}
+
+.img3 {
+    margin-right: 50px;
+}
+
+.counter {
+    background-color: #F4F0EC;
+    height: 457px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-bottom: 60px;
+    
+}
+
+.counter h1 {
+    font-size: 80px;
+    color: #CDA274;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.counter p {
+    font-size: 20px;
+    color: #4D5053;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.description h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 22px;
+    line-height: 200%;
+    color: #4D5053;
+}
+
+.news-cards {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 1200px;
+    margin-right: 0px;
+    margin-left: 200px;
+    margin-bottom: 60px;
+}
+
+.news-cards h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #292F36;
+    font-size: 25px;
+}
+
+.news-cards p {
+    color: #4D5053;
+    font-size: 16px;
+    margin-left: 0px;
+}
+
+.news-cards button {
+    border-radius: 50px;
+    border-color: transparent;
+    margin-left: 165px;
+    cursor: pointer;
+}
